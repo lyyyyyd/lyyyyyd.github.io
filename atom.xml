@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-02T06:58:56.419Z</updated>
+  <updated>2019-01-02T07:18:52.284Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/01/02/LPTHW-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2019/01/02/LPTHW-学习笔记/</id>
     <published>2019-01-02T06:55:24.000Z</published>
-    <updated>2019-01-02T06:58:56.419Z</updated>
+    <updated>2019-01-02T07:18:52.284Z</updated>
     
     <content type="html"><![CDATA[<h1 id="LPTHW-学习笔记"><a href="#LPTHW-学习笔记" class="headerlink" title="LPTHW 学习笔记"></a>LPTHW 学习笔记</h1><h2 id="习题1-第一个程序"><a href="#习题1-第一个程序" class="headerlink" title="习题1 第一个程序"></a>习题1 第一个程序</h2><h3 id="加分习题"><a href="#加分习题" class="headerlink" title="加分习题"></a>加分习题</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -- codeing=utf-8 --  </span></span><br><span class="line"><span class="keyword">print</span> <span class="string">"Hello World!"</span>  </span><br><span class="line"><span class="keyword">print</span> <span class="string">"Hello Again"</span>  </span><br><span class="line"><span class="keyword">print</span> <span class="string">"I like typing this."</span>   </span><br><span class="line"><span class="keyword">print</span> <span class="string">"This is fun."</span>  </span><br><span class="line"><span class="keyword">print</span> <span class="string">'Yay! Printing.'</span>  </span><br><span class="line"><span class="keyword">print</span> <span class="string">"I'd much rather you 'not'."</span>  </span><br><span class="line"><span class="keyword">print</span> <span class="string">'I "said" do not touch this.'</span></span><br></pre></td></tr></table></figure><ul><li><p>让脚本多打印一行</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">print</span> <span class="string">"Hello World!\n"</span></span><br></pre></td></tr></table></figure></li><li><p>让脚本只打印一行<br>python语句默认自带换行，加上逗号后，换行就变成了空格。<br><code>\r</code>，可以实现新打印的一行可以覆盖掉上一行的打印内容.</p></li><li><p>在一行的起始位置放一个<code>#(octothorpe)</code>符号<br>作用为注释</p></li></ul><h2 id="习题3-数字和数学计算"><a href="#习题3-数字和数学计算" class="headerlink" title="习题3 数字和数学计算"></a>习题3 数字和数学计算</h2><p>在整数部分加上小数点，其结果都是精确值<br>在运算中，整数与浮点数运算的结果是浮点数</p>]]></content>
     
@@ -37,30 +37,7 @@
       <category term="python" scheme="http://yoursite.com/categories/python/"/>
     
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
-    
       <category term="LPTHW" scheme="http://yoursite.com/tags/LPTHW/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/12/20/hello-world/"/>
-    <id>http://yoursite.com/2018/12/20/hello-world/</id>
-    <published>2018-12-20T06:41:54.362Z</published>
-    <updated>2018-12-20T06:41:54.365Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
