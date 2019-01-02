@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[LPTHW 学习笔记]]></title>
+    <url>%2F2019%2F01%2F02%2FLPTHW-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[LPTHW 学习笔记习题1 第一个程序加分习题12345678# -- codeing=utf-8 -- print "Hello World!" print "Hello Again" print "I like typing this." print "This is fun." print 'Yay! Printing.' print "I'd much rather you 'not'." print 'I "said" do not touch this.' 让脚本多打印一行 1print "Hello World!\n" 让脚本只打印一行python语句默认自带换行，加上逗号后，换行就变成了空格。\r，可以实现新打印的一行可以覆盖掉上一行的打印内容. 在一行的起始位置放一个#(octothorpe)符号作用为注释 习题3 数字和数学计算在整数部分加上小数点，其结果都是精确值在运算中，整数与浮点数运算的结果是浮点数]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>LPTHW</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F12%2F20%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
